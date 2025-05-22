@@ -1,53 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-// question-2
-// const d=prompt("value")
-// const b=(d%2==0) ? "the number is even":"the number is odd"
-// document.write(b);
+      // question-2
+      // const d=prompt("value")
+      // const b=(d%2==0) ? "the number is even":"the number is odd"
+      // document.write(b);
 
+      // let a=prompt("inter your value");
 
+      // if(a%2==0){
+      //     document.write("The nmbr is even");
+      // }else{
+      //     document.write("The nmbr is odd");
+      // }
 
+      // question-4
+      let x = prompt("inter the value");
+      if (x >= 90) {
+        document.write("A+");
+      } else if (x >= 60) {
+        document.write("A");
+      } else if (x >= 50) {
+        document.write("B");
+      } else {
+        document.write("Fail");
+      }
 
-// let a=prompt("inter your value");
-
-// if(a%2==0){
-//     document.write("The nmbr is even");
-// }else{
-//     document.write("The nmbr is odd");
-// }
-
-
-// question-4
-let x=prompt("inter the value");
-if(x>=90){
-    document.write("A+");
-}else if(x>=60){
-    document.write("A");
-}else if(x>=50){
-    document.write("B")
-}else{
-    document.write("Fail");
-}
-
-// question-7
-let i=prompt("inter the value");
-if(i>=90){
-    document.write("A+");
-}else if(x>=60){
-    document.write("A");
-}else if(x>=50){
-    document.write("B")
-}else{
-    document.write("Fail");
-}
-
+      // question-7
+      let i = prompt("inter the value");
+      if (i >= 90 && i <= 100) {
+        document.write("A");
+      } else if (i >= 80 && i <= 89) {
+        document.write("B");
+      } else if (i >= 70 && i <= 79) {
+        document.write("C");
+      } else if (i >= 60 && i >= 69) {
+        document.write("D");
+      } else {
+        document.write("Fail");
+      }
+      // question-3
+      let s = prompt("Enter the letter");
+      let k = s.toUpperCase;
+      switch (s) {
+        case "A":
+          document.write("vowel1");
+          break;
+        case "E":
+          document.write("vowel2");
+          break;
+        case "I":
+          document.write("vowel3");
+          break;
+        case "O":
+          document.write("vowel4");
+          break;
+        case "U":
+          document.write("vowel5");
+          break;
+        default:
+          document.write(consonant);
+      }
     </script>
-</body>
+  </body>
 </html>
